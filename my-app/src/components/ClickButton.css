@@ -1,0 +1,22 @@
+.click-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 40px;
+  font-size: 24px;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.click-button:hover {
+  background-color: #0056b3;
+}
+
+.button-image {
+  width: 100px;
+  height: 100px;
+  margin-right: 10px;
+}
