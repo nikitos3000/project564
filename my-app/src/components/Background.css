@@ -11,9 +11,13 @@
 }
 
 .content {
-  margin-bottom: 50vh;
 }
 .counter {
+  margin-bottom: 20vh;
   font-size: 50px;
   font-weight: bold;
+}
+
+.click {
+  margin-top: 40vh;
 }

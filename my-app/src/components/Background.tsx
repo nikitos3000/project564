@@ -13,7 +13,9 @@ const BackgroundComponent: React.FC = () => {
     <div className="background">
       <div className="content">
         <div className="counter">{count}</div>
-        <ClickButton onClick={handleClick} />
+        <div className="click">
+          <ClickButton onClick={handleClick} />
+        </div>
       </div>
     </div>
   );

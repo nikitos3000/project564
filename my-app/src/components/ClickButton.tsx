@@ -8,7 +8,7 @@ interface ClickButtonProps {
 const ClickButton: React.FC<ClickButtonProps> = ({ onClick }) => {
   return (
     <button className="click-button" onClick={onClick}>
-      <img src="./ImgOilRing.png" alt="" className="button-image" />
+      <div className="button-image"></div>
     </button>
   );
 };
